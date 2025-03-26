@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gouki\\OneDrive\\\uBB38\uC11C\\bro\\3\uC7A5\uC62C\uB9AC\uB294\uC6A9\\10\uBC88\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39B2BC4A-0C0D-4102-B64E-E35C18A64638}|10\uBC88\\10\uBC88.vcxproj|C:\\Users\\gouki\\OneDrive\\\uBB38\uC11C\\bro\\3\uC7A5\uC62C\uB9AC\uB294\uC6A9\\10\uBC88\\10\uBC88\\10\uBC88.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{39B2BC4A-0C0D-4102-B64E-E35C18A64638}|10\uBC88\\10\uBC88.vcxproj|solutionrelative:10\uBC88\\10\uBC88.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "10\uBC88.cpp",
+              "DocumentMoniker": "C:\\Users\\gouki\\OneDrive\\\uBB38\uC11C\\bro\\3\uC7A5\uC62C\uB9AC\uB294\uC6A9\\10\uBC88\\10\uBC88\\10\uBC88.cpp",
+              "RelativeDocumentMoniker": "10\uBC88\\10\uBC88.cpp",
+              "ToolTip": "C:\\Users\\gouki\\OneDrive\\\uBB38\uC11C\\bro\\3\uC7A5\uC62C\uB9AC\uB294\uC6A9\\10\uBC88\\10\uBC88\\10\uBC88.cpp",
+              "RelativeToolTip": "10\uBC88\\10\uBC88.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T11:50:38.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
