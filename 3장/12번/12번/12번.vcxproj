@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="12번.cpp" />
+    <ClCompile Include="Ram.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Ram.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

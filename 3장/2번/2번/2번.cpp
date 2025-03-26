@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <sstream>
 using namespace std;
 
 class Date {
@@ -7,9 +8,6 @@ public:
 	int e = 0;
 	int f = 0;
 	int g = 0;
-	int h = 0;
-	int i = 0;
-	int j = 0;
 	Date(int a, int b, int c);
 	Date(string str);
 	void show();
@@ -25,18 +23,13 @@ Date::Date(int a,int b,int c) {
 }
 
 Date::Date(string str) {
-	int index;
-	h = stoi(str);
-	for (int k = 0;k < 20;k++) {
-		if (str[k] = '/') {
-			index = k;
-			stoi(str[index])
-		}
-	}
+	stringstream da(str);
+	char slash;
+	da >> e >> slash >> f >> slash >> g;
 }
 
 void Date::show() {
-	cout << h;
+	cout << e << "³â" << f << "¿ù" << g << "ÀÏ" << endl;
 }
 
 int Date::getYear() {
