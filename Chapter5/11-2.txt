@@ -1,0 +1,4 @@
+Book::Book(const Book& c) {
+	this->price = c.price;
+	this->title = c.title;
+}
