@@ -15,17 +15,18 @@ int main() {
 	cout << "입고할 책을 입력하세요. 년도에 -1을 입력하면 입고를 종료합니다." << endl;
 	int i = 0;
 	while (true) {
-		int year=0;
-		string name="";
-		string author="";
+		int year;
+		string name;
+		string author;
 		Book a;
 		v.push_back(a);
 		cout << "년도>>"; cin >> year;
 		if (year == -1) break;
 		v.at(i).year = year;
-		cout << "책이름>>"; cin >> name;
+		cin.ignore();
+		cout << "책이름>>"; getline(cin, name);
 		v.at(i).name = name;
-		cout << "저자>>"; getline(cin,author); // 띄어쓰기 처리해야함
+		cout << "저자>>"; getline(cin,author);
 		v.at(i).author = author;
 		i++;
 	}

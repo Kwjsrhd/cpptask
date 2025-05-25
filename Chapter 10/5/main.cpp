@@ -17,9 +17,16 @@ T* concat(T a[], int sizea, T b[], int sizeb) {
 }
 
 int main() {
-	int a[] = { 1,2,3,4,5 };
-	int b[] = { 20,39,49,2 };
+	double a[] = { 1,2,3.2,4,5 };
+	double b[] = { 20.5,39,49,2 };
 	for (int i = 0; i < 9; i++) {
-		cout << concat(a, 5, b, 4)[i] << endl;
+		cout << concat(a, 5, b, 4)[i] << " ";
 	}
+	cout << endl;
+	int c[] = { 1,2,3,4,5 };
+	int d[] = { 20,39,49,2 };
+	for (int i = 0; i < 9; i++) {
+		cout << concat(c, 5, d, 4)[i] << " ";
+	}
+	cout << endl;
 }
