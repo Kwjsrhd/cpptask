@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 
 class Book {
@@ -24,7 +25,7 @@ int main() {
 		v.at(i).year = year;
 		cout << "책이름>>"; cin >> name;
 		v.at(i).name = name;
-		cout << "저자>>"; cin >> author; // 띄어쓰기 처리해야함
+		cout << "저자>>"; getline(cin,author); // 띄어쓰기 처리해야함
 		v.at(i).author = author;
 		i++;
 	}
